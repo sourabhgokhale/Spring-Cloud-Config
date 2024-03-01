@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://ANSHUL-LAPTOP:8761/eureka
+  instance:
+    hostname: ANSHUL-LAPTOP
+    registerWithEureka: true
+    fetchRegistry: true
+    preferIpAddress: false
